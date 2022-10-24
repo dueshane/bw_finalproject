@@ -4,12 +4,12 @@
 
 body {
     background-color: rgb(0, 0, 0);
-    background-image: url(/october-practice/final_project/img/hall.png);
+    background-image: url(/bw_finalproject/img/hall.png);
     background-size: 500pt;
 }
 
 .first {
-    background-image: url(/october-practice/final_project/img/fire-burn.gif);
+    background-image: url(/bw_finalproject/img/fire-burn.gif);
     height: 50px;
 }
 
@@ -20,8 +20,9 @@ body {
 
 
 aside {
-    background-image: url(/october-practice/final_project/img/gif.gif);
+    background-image: url(/bw_finalproject/img/gif.gif);
 }
+
 h1 {
     text-align: center;
     font-style: italic; color: yellow;
@@ -37,10 +38,13 @@ li a {
     text-decoration: none;
     margin-left: 30px;
     list-style: none;
+    text-shadow: 2px 4px yellow;
+
+
 }
 
 
-/* unvisited link */
+   /* unvisited link */
 a:link {
     color: red;
   }
@@ -65,8 +69,8 @@ a:link {
     border: 5px solid yellow;
     padding: 10px;
     box-shadow: 5px 10px darkred;
-    font-style: italic;
-    text-shadow: 2px 4px yellow;
+    font-style: italic; 
+    color: yellow;
     float: left;
     width: 75%;
 }
@@ -76,20 +80,35 @@ a:link {
     padding: 5px;
     box-shadow: 5px 10px darkred;
     font-style: italic;
-    text-shadow: 2px 4px yellow;
-    background-image: url(/october-practice/final_project/img/live.gif);
+    color: yellow;
+    background-image: url(/bw_finalproject/img/live.gif);
 }
 
 aside {
     border: 5px  double yellow;
     padding: 5px;
     box-shadow: 5px 10px darkred;
-    font-style: italic;
+    font-style: italic; size: 100px;
     float: right;
-    text-shadow: 2px 4px yellow;
+    color: yellow;
     width: 25%;
 }
 
 nav {
     position: sticky;
+}
+
+.form {
+    background-color: red;
+}
+
+#name, #email, #fill {
+    background-color: black;
+    color: yellow;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.about {
+    color: yellow;
 }
