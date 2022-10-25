@@ -13,17 +13,13 @@ body {
     height: 50px;
 }
 
-.last {
+.last{
     text-align: center;
     color: yellow;
+    margin-top: 20px;
 }
 
-
-aside {
-    background-image: url(/bw_finalproject/img/gif.gif);
-}
-
-h1 {
+h1,h2,.about{
     text-align: center;
     font-style: italic; color: yellow;
 }
@@ -39,10 +35,7 @@ li a {
     margin-left: 30px;
     list-style: none;
     text-shadow: 2px 4px yellow;
-
-
 }
-
 
    /* unvisited link */
 a:link {
@@ -62,7 +55,6 @@ a:link {
   /* selected link */
   a:active {
     color: grey;
-
 }
 
 .container {
@@ -92,14 +84,17 @@ aside {
     float: right;
     color: yellow;
     width: 25%;
+    background-image: url(/bw_finalproject/img/gif.gif);
 }
 
 nav {
     position: sticky;
 }
 
-.form {
-    background-color: red;
+/* contact form*/
+.form{
+    background-image: url(/bw_finalproject/img/live.gif);
+    color: yellow;
 }
 
 #name, #email, #fill {
@@ -109,6 +104,22 @@ nav {
     margin-top: 20px;
 }
 
-.about {
+/* social media links*/
+
+.fa-solid, .fa-brands{
+    background-color: black;
     color: yellow;
+    display: flex;
+}
+
+.last h2{
+    text-align: left;
+}
+
+.icons{
+    position: relative;
+    left: 625px;
+}
+button{
+    background-color: black;
 }
