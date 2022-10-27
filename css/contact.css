@@ -16,35 +16,18 @@
   
   
   /* Header Starts */
-  .center-1 {
-    text-align: center;
-    margin: 15px;
-  }
-  
-  .center {
-    display: block;
-    width: 200px;
-    margin: 35px auto;
-    border: 1px solid yellow;
-  }
-  
-  
-  audio::-webkit-media-controls-panel {
-    background-color: yellow;
-  }
-  
   
   .first {
     background-image: url(/img/fire-burn.gif);
     height: 100px;
   }
   
-  h1,
-  h2 {
+  h1 {
     text-align: center;
     font-style: italic;
     color: yellow;
   }
+
   /* Header Ends */
   
   /* Navigation Stuff Starts */
@@ -94,48 +77,19 @@
   
   
   /* main body section starts */
-  .container {
-    float: left;
-    min-height: 600px;
-    width: 75%;
-    padding: 10px;
-    border: 5px solid yellow;
-    box-shadow: 5px 10px darkred;
-    font-style: italic;
-    color: yellow;
-  }
-  
-  article {
-    background-image: url(/img/live.gif);
-    border: 5px double yellow;
-    width: 70%;
-    margin: 0 auto;
-    padding: 5px;
-    box-shadow: 5px 10px darkred;
-    font-style: italic;
-    color: yellow;
-  }
-  
-  aside {
-    width: 25%;
-    height: 600px;
-    float: right;
-    padding: 5px;
-    border: 5px double yellow;
-    box-shadow: 5px 10px darkred;
-    font-style: italic;
-    color: yellow;
-    background-image: url(/img/gif.gif);
-  }
-  
-  .clearfix {
-    clear: both;
-  }
-  
   /* contact form*/
-  .form {
-    background-image: url(/img/live.gif);
+  form {
     color: yellow;
+    width: 30%;
+    background-color: rgba(139, 0, 0, 0.5);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  .form-wrapper {
+    width: 100%;
+    margin-top: 25px;
   }
   
   #name,
@@ -144,8 +98,16 @@
     background-color: black;
     color: yellow;
     padding: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
   }
+
+  input {
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px
+  }
+  /* contact form ends */
   /* main body section Ends */
   
   
