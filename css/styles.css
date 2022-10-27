@@ -7,7 +7,7 @@
   
   body {
     background-color: rgb(0, 0, 0);
-    background-image: url(/img/hall.png);
+    background-image: url(../img/hall.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,7 +35,7 @@
   
   
   .first {
-    background-image: url(/img/fire-burn.gif);
+    background-image: url(../img/fire-burn.gif);
     height: 100px;
   }
   
@@ -106,7 +106,7 @@
   }
   
   article {
-    background-image: url(/img/live.gif);
+    background-image: url(../img/live.gif);
     border: 5px double yellow;
     width: 70%;
     margin: 0 auto;
@@ -125,7 +125,7 @@
     box-shadow: 5px 10px darkred;
     font-style: italic;
     color: yellow;
-    background-image: url(/img/gif.gif);
+    background-image: url(../img/gif.gif);
   }
   
   .clearfix {
@@ -134,7 +134,7 @@
   
   /* contact form*/
   .form {
-    background-image: url(/img/live.gif);
+    background-image: url(../img/live.gif);
     color: yellow;
   }
   
